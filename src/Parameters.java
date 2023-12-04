@@ -13,7 +13,8 @@ public class Parameters {
 	static String WebsiteUrl = "https://magento.softwaretestingboard.com/";
 	static String signUpPage = "https://magento.softwaretestingboard.com/customer/account/create/";
 	static String logOutPage = "https://magento.softwaretestingboard.com/customer/account/logout/";
-	static String loginPage = "https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9hY2NvdW50L2xvZ291dFN1Y2Nlc3Mv/";
+	static String loginPage = "https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS9jdXN0b21lci9hY2NvdW50L2NyZWF0ZS8%2C/";
+	  static String checkTheUrl ="https://magento.softwaretestingboard.com/customer/account/";
 
 	static String[] FirstNameArray = { "ahmed", "jamal", "khaled", "jaber", "Osama" };
 	static String[] LastNameArray = { "Khalel", "Sami", "Raid", "Mohammed", "Mahmmud" };

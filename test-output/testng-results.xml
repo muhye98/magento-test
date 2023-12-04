@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-04T15:08:00 EET" name="Default suite" finished-at="2023-12-04T15:08:20 EET" duration-ms="20230">
+  <suite started-at="2023-12-04T17:48:38 EET" name="Default suite" finished-at="2023-12-04T17:48:53 EET" duration-ms="15086">
     <groups>
     </groups>
-    <test started-at="2023-12-04T15:08:00 EET" name="Default test" finished-at="2023-12-04T15:08:20 EET" duration-ms="20230">
+    <test started-at="2023-12-04T17:48:38 EET" name="Default test" finished-at="2023-12-04T17:48:53 EET" duration-ms="15086">
       <class name="SignInSignUp">
-        <test-method is-config="true" signature="Setup()[pri:0, instance:SignInSignUp@14faa38c]" started-at="2023-12-04T15:08:00 EET" name="Setup" finished-at="2023-12-04T15:08:02 EET" duration-ms="2040" status="PASS">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:SignInSignUp@14faa38c]" started-at="2023-12-04T17:48:38 EET" name="Setup" finished-at="2023-12-04T17:48:40 EET" duration-ms="1655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Contact()[pri:1, instance:SignInSignUp@14faa38c]" started-at="2023-12-04T15:08:02 EET" name="Contact" finished-at="2023-12-04T15:08:11 EET" duration-ms="9316" status="PASS">
+        <test-method signature="Contact()[pri:1, instance:SignInSignUp@14faa38c]" started-at="2023-12-04T17:48:40 EET" name="Contact" finished-at="2023-12-04T17:48:47 EET" duration-ms="6953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Contact -->
-        <test-method signature="LogoutTest()[pri:2, instance:SignInSignUp@14faa38c]" started-at="2023-12-04T15:08:11 EET" name="LogoutTest" finished-at="2023-12-04T15:08:14 EET" duration-ms="3204" status="PASS">
+        <test-method signature="LogoutTest()[pri:2, instance:SignInSignUp@14faa38c]" started-at="2023-12-04T17:48:47 EET" name="LogoutTest" finished-at="2023-12-04T17:48:49 EET" duration-ms="2355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogoutTest -->
-        <test-method signature="LoginTest()[pri:3, instance:SignInSignUp@14faa38c]" started-at="2023-12-04T15:08:14 EET" name="LoginTest" finished-at="2023-12-04T15:08:20 EET" duration-ms="5627" status="PASS">
+        <test-method signature="LoginTest()[pri:3, instance:SignInSignUp@14faa38c]" started-at="2023-12-04T17:48:49 EET" name="LoginTest" finished-at="2023-12-04T17:48:53 EET" duration-ms="4063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:SignInSignUp@14faa38c]" started-at="2023-12-04T15:08:20 EET" name="AfterTest" finished-at="2023-12-04T15:08:20 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:SignInSignUp@14faa38c]" started-at="2023-12-04T17:48:53 EET" name="AfterTest" finished-at="2023-12-04T17:48:53 EET" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->

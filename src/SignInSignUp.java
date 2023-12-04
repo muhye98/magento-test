@@ -53,9 +53,8 @@ public class SignInSignUp extends Parameters {
 		passInput.sendKeys(FinalPassoward);
 		loginbut.click();
 
-		String assertLogin = driver.findElement(By.className("block-title")).getText();
-
-		softassert.assertEquals(assertLogin.contains("Account Information"), true,"The expictation is wrong you must expict another thing");
+		softassert.assertEquals(driver.getCurrentUrl(),checkTheUrl,"the url is wrong");
+		softassert.assertAll();
 	}
 
 	@AfterTest
