@@ -52,8 +52,9 @@ public class SignInSignUp extends Parameters {
 		emailInput.sendKeys(EmailFinal);
 		passInput.sendKeys(FinalPassoward);
 		loginbut.click();
-
-		softassert.assertEquals(driver.getCurrentUrl(),checkTheUrl,"the url is wrong");
+	
+		String ActualResult = driver.findElement(By.className("box-title")).getText();
+		softassert.assertEquals(ActualResult, ExpictedResult, "Login not found");
 		softassert.assertAll();
 	}
 
